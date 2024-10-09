@@ -29,18 +29,22 @@ private Integer hours;
     }
 
     public void setValuePerHour(Double valuePerHour) {
+
         this.valuePerHour = valuePerHour;
     }
 
     public Integer getHours() {
+
         return hours;
     }
 
     public void setHours(Integer hours) {
+
         this.hours = hours;
     }
 
-    public Double totalValue(Double total){
-        return total;
+    public Double totalValue(){
+
+        return valuePerHour * hours;
     }
 }
